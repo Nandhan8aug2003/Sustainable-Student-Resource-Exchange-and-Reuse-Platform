@@ -8,6 +8,7 @@ public class LoginPage {
     @Id
     private int usn;
     private int password;
+    private String role;
 
     public int getUsn() {
         return usn;
